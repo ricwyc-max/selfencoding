@@ -159,31 +159,31 @@ netron.start("model.onnx", browse=True)
 #### 核心可视化结果
 ##### 图1：训练与验证损失曲线
 <center>
-    <img src="imgs/1.png" width="75%" alt="训练验证损失曲线"/>
+    <img src="image/1.png" width="75%" alt="训练验证损失曲线"/>
 </center>
 <p align="center">训练轮数内损失持续下降，验证集与训练集损失趋势一致，无明显过拟合</p>
 
 ##### 图2：原始图像与重建图像对比
 <center>
-    <img src="imgs/2.png" width="60%" alt="原图与重建图对比"/>
+    <img src="image/2.png" width="60%" alt="原图与重建图对比"/>
 </center>
 <p align="center">上排为原始图像，下排为模型重建图像，重建效果与原图高度相似</p>
 
 ##### 图3：2维隐空间分布散点图
 <center>
-    <img src="imgs/3.png" width="75%" alt="隐空间散点图"/>
+    <img src="image/3.png" width="75%" alt="隐空间散点图"/>
 </center>
 <p align="center">不同服饰类别在隐空间呈现明显聚类效果，编码器学习到区分性特征</p>
 
 ##### 图4：隐空间网格重建效果
 <center>
-    <img src="imgs/4.png" width="80%" alt="隐空间网格重建"/>
+    <img src="image/4.png" width="80%" alt="隐空间网格重建"/>
 </center>
 <p align="center">2维隐空间网格点重建为图像，特征分布平滑，相邻点重建图像具有连续性</p>
 
 ##### 图5：网络结构
 <center>
-    <img src="imgs/5.png" width="80%" alt="网络结构"/>
+    <img src="image/5.png" width="80%" alt="网络结构"/>
 </center>
 <p align="center">网络结构</p>
 
